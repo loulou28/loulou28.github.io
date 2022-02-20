@@ -1,0 +1,54 @@
+.education {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+    margin-bottom: 0.2em;
+    cursor: pointer;
+    transition: transform 250ms ease-in;
+}
+
+.education:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.dataList{
+    padding: 0.2em;
+    border-top:1px solid #DDD;
+}
+
+.dataList .grid {
+    width: 0%
+}
+
+.dataList .list {
+    width: 100%
+}
+
+
+.dataList .titLine{
+    margin-left: 10px;
+    font-weight:bold;
+    line-height:20px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    word-wrap:normal;
+    white-space:nowrap;
+    width:270px;
+}
+
+.dataList .line{
+    margin-left: 10px;
+    font-size:11px;
+    line-height:20px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    word-wrap:normal;
+    white-space:nowrap;
+    width:210px;
+}

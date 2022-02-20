@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    height: 4rem;
+    padding: 0.5em 1em;
+    background: black;
+    color: white;
+}
+
+.logo{
+    height: 50px;
+    text-align: center;
+}
+
+.buttonImg {
+    height: 100%;
+    padding: 0.5em 0.3em;
+}
+
+.btnMenu{
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid #DDD;
+    font-size:13px;
+}
+
+.btnMenu td{
+    border:1px solid #DDD;
+    text-align:center;
+    padding:10px 0px;
+    color:#999;
+}
+
+.btnMenu td.on{
+    background-color:#DDD;
+    color:#000;
+}
+
+.btnMenu td.select{
+    background-image:url(../../../public/images/ico_arrow_down.png);
+    background-color:#F4F4F4;
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+    background-position:right 8px;
+}
+
+.btnMenu td.full_search{
+    background-image:url(../../../public/images/ico_arrow_search.png);
+    background-size:35px 35px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+.input {
+    float:left;
+    width:calc(100% - 50px);
+}
+
+.button {
+    float:right;
+    width:50px;
+    height:37px;
+}
+
+.full_search{
+    padding:0px !important;text-align:left !important;
+}
+
+.full_search input{
+    height:37px;line-height:37px;
+    background:none;
+    border:none;
+    width:calc(100% - 40px);
+    padding-left:10px;
+}
+
+

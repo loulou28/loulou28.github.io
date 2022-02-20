@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+
+body,input,textarea,select,button,table{
+  font-size:12px;
+  line-height:1.25em;
+  word-break:break-all;
+  font-family:'NanumBarunGothic','Spoqa Han Sans JP', 'Sans-serif';
+}
+

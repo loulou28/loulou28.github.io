@@ -1,0 +1,22 @@
+.pa10 {
+    padding:10px;
+}
+
+.topImg {
+    width: 100%;
+}
+
+.info{ 
+    padding:10px;
+}
+
+.info table td{
+    line-height:30px;
+}
+
+.info table th{
+    line-height:30px;
+    padding-left:20px;
+    text-align:left;
+    color:#dc2e5a;
+}
